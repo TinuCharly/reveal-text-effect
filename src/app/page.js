@@ -24,11 +24,11 @@ export default function Home() {
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
         >
-          No I'm a graphic designer
+          No I&apos;m a graphic designer
         </p>
       </motion.div>
 
-      <div className={styles.body}> Hi I'm a web developer</div>
+      <div className={styles.body}> Hi I&apos;m a web developer</div>
     </main>
   );
 }
